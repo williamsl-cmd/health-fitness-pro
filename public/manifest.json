@@ -1,0 +1,43 @@
+
+{
+  "name": "Health & Fitness PRO",
+  "short_name": "Health & Fitness",
+  "description": "Professional health and fitness tracking application",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0E27",
+  "theme_color": "#00D9FF",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://horizons-cdn.hostinger.com/889ec011-f106-4f20-9f81-f3a2d0f7e2b3/5a1287ef470b7b18dc5c76edd128359c.jpg",
+      "sizes": "32x32",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "https://horizons-cdn.hostinger.com/889ec011-f106-4f20-9f81-f3a2d0f7e2b3/5a1287ef470b7b18dc5c76edd128359c.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "https://horizons-cdn.hostinger.com/889ec011-f106-4f20-9f81-f3a2d0f7e2b3/5a1287ef470b7b18dc5c76edd128359c.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "https://horizons-cdn.hostinger.com/889ec011-f106-4f20-9f81-f3a2d0f7e2b3/5a1287ef470b7b18dc5c76edd128359c.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

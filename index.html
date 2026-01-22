@@ -1,0 +1,54 @@
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+    <!-- Use the user provided image for all icon sizes to ensure brand consistency -->
+    <link rel="icon" type="image/jpeg" href="https://horizons-cdn.hostinger.com/889ec011-f106-4f20-9f81-f3a2d0f7e2b3/5a1287ef470b7b18dc5c76edd128359c.jpg" sizes="32x32">
+    <link rel="icon" type="image/svg+xml" href="/icon.svg">
+    <link rel="apple-touch-icon" href="https://horizons-cdn.hostinger.com/889ec011-f106-4f20-9f81-f3a2d0f7e2b3/5a1287ef470b7b18dc5c76edd128359c.jpg">
+    <link rel="manifest" href="/manifest.json" />
+    
+		<meta name="generator" content="Hostinger Horizons" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    
+    <!-- Brand Colors -->
+    <meta name="theme-color" content="#0A0E27" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Health & Fitness PRO" />
+		
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourwebsite.com/">
+    <meta property="og:title" content="Health & Fitness PRO - Seu Guia Completo de Saúde">
+    <meta property="og:description" content="Monitore peso, nutrição, hidratação, exercícios e medidas corporais com Health & Fitness PRO. Alcance seus objetivos de bem-estar.">
+    <meta property="og:image" content="https://horizons-cdn.hostinger.com/889ec011-f106-4f20-9f81-f3a2d0f7e2b3/5a1287ef470b7b18dc5c76edd128359c.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yourwebsite.com/">
+    <meta property="twitter:title" content="Health & Fitness PRO - Seu Guia Completo de Saúde">
+    <meta property="twitter:description" content="Monitore peso, nutrição, hidratação, exercícios e medidas corporais com Health & Fitness PRO. Alcance seus objetivos de bem-estar.">
+    <meta property="twitter:image" content="https://horizons-cdn.hostinger.com/889ec011-f106-4f20-9f81-f3a2d0f7e2b3/5a1287ef470b7b18dc5c76edd128359c.jpg">
+
+    <title>Health & Fitness PRO</title>
+	</head>
+	<body>
+		<div id="root"></div>
+		<script type="module" src="/src/main.jsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(registration => {
+              console.log('SW registered: ', registration);
+            })
+            .catch(registrationError => {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
+	</body>
+</html>
